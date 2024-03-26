@@ -1,8 +1,4 @@
 const mongoose = require("mongoose");
-
-
-
-
 const connUrl =require("./conn");
 CONNECTION_STRING = connUrl
 
