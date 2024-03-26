@@ -6,7 +6,7 @@ async function insertEmployees() {
     connectDb();
     try {
 
-    const newEmpl = new Employee({'name':'aaabbcc',"job":"eater"})
+    const newEmpl = new Employee({'name':'',"job":"eater"})
     await newEmpl.save();
     console.log("access insert")        
 
